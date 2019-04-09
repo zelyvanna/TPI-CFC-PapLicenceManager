@@ -1,0 +1,65 @@
+.block {
+	display: inline-table;
+	float: inherit;
+	border-radius: 10px;
+	border: solid 2px orangered;
+	margin-bottom: 20px;
+	margin-right: 25px;
+}
+
+.block table {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.block textarea {
+	min-width: 500px !important;
+	min-height: 125px;
+}
+
+.block-title {
+	display: inline-block;
+	width: 100%;
+	background-color: orangered;
+	border-radius: 7px;
+	text-align: center;
+	height: 30px;
+	color: white;
+}
+
+.block-title h1 {
+	height: 30px;
+!important;
+	font-size: 9pt;
+!important;
+}
+
+.title {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	background-color: orangered;
+	border-radius: 7px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+
+}
+
+.title h1 {
+	height: 50px;
+!important;
+	font-size: 20pt;
+!important;
+}
+
+#footer {
+	text-align: left;
+	float: left;
+	width: 100%;
+	font-size: 25px;
+}
+
+#buttonCenter {
+	text-align: center;
+}
